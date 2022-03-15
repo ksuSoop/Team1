@@ -1,0 +1,63 @@
+<html>
+
+<body>
+
+<p id= "calcText">
+	</p>
+
+<input type = "text" id = "num1">
+
+<input type = "text" id = "num2">
+
+<input type="button" value="Sum" onclick="findSum()">
+
+<input type="button" value="Difference" onclick="findDiff()">
+
+<input type="button" value="Product" onclick="findProd()">
+
+<input type="button" value="Quotient" onclick="findQuot()">
+
+<script>
+
+function findSum() {
+	var num1 = document.getElementById("num1");
+	var num2 = document.getElementById("num2");
+	var num1_val = num1.value * 1;
+	var num2_val = num2.value * 1;
+	 
+	alert(num1_val + " + " + num2_val + " = " + (num1_val + num2_val)); 
+}
+
+function findDiff() {
+	var num1 = document.getElementById("num1");
+	var num2 = document.getElementById("num2");
+	var num1_val = num1.value * 1;
+	var num2_val = num2.value * 1;
+	 
+	alert(num1_val + " - " + num2_val + " = " + (num1_val - num2_val)); 
+}
+
+function findProd() {
+	var num1 = document.getElementById("num1");
+	var num2 = document.getElementById("num2");
+	var num1_val = num1.value * 1;
+	var num2_val = num2.value * 1;
+	 
+	alert(num1_val + " * " + num2_val + " = " + (num1_val * num2_val)); 
+}
+
+function findQuo() {
+	var num1 = document.getElementById("num1");
+	var num2 = document.getElementById("num2");
+	var num1_val = num1.value * 1;
+	var num2_val = num2.value * 1;
+	 
+	alert(num1_val + " / " + num2_val + " = " + (num1_val / num2_val)); 
+}
+
+</script>
+</body>
+</html>
+
+
+	
